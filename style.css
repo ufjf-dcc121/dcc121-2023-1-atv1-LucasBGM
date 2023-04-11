@@ -3,8 +3,10 @@ header, footer{
     color: white;
     background-color: black;
 }
-
-li {
+main {
+    min-height: 264px;
+}
+nav li{
     display: inline;
     border: solid 3px;
     padding: 0.5em;
