@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <title> aula de lab web</title>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-      <header>
-        <p>Tres ultimo jogos que eu joguei:</p>
-      </header>
-      <nav>
 
-        <ul>
+<head>
+  <meta charset="utf-8">
+  <title> aula de lab web</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    li.serie {
+      color: green;
+    }
+
+    li.filme {
+      color: blue;
+    }
+
+    .jogo {
+      color: orangered;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Jogos Jogados</h1>
+    <nav>
+  
+      <ul>
         <li><a href="/">Home</a></li>
         <li><a href="listas.html">Listas</a></li>
         <li><a href="outro.html">Outra</a></li>
-        </ul>
-      </nav>
-      
+      </ul>
+    </nav>
+  </header>
+    <p>Tres ultimo jogos que eu joguei:</p>
 
-<ol>
-<li>Lolzinho</li>
-<li>Valhalla</li>
-<li>Grand chase</li>
-</ol>
 
-<p>Filmes e séries que ja assisti:</p>
+  <ol>
+    <li class="jogo">Lolzinho</li>
+    <li class="jogo">Valhalla</li>
+    <li class="jogo">Grand chase</li>
+  </ol>
+  <p>E o <span class="jogo"> Valhalla </span> foi o meu favorito</p>
 
-<div>Filmes:</div><br>
-<ul style="color:green">
-  <li>
-    
-    <ul>
-  <li>Don't look up</li>
-  <li>John Wick</li> <br>
+  <p>Filmes e séries que ja assisti:</p>
 
-  </li>
+  <div>Filmes:</div><br>
+  <ul style="color:green">
+    <li>
+
+      <ul>
+        <li class="filme">Don't look up</li>
+        <li class="filme">John Wick</li>
+
+    </li>
   </ul>
-  <div>Series:</div><br>
+  <div>Series:</div>
   <ul style="color:blue">
-  <li>
-  <li>Breaking Bad</li>
-  <li>Bojack horseman</li>
+    <li>
+    <li class="serie">Breaking Bad</li>
+    <li class="serie">Bojack horseman</li>
 
-  </li>
-</ul>
+    </li>
+  </ul>
 
 
-</ul>
+  </ul>
 
-<footer>&copy;2023 - DCC121</footer>
+  <footer>&copy;2023 - DCC121</footer>
 </body>
+
 </html>
